@@ -1,5 +1,8 @@
 body {
+  position: relative;
+  height: 100vh;
     background: linear-gradient(to bottom,green,purple )
+    
 }
 .speciaal {
     border: dashed 3px rgb(8, 143, 33);
