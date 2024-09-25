@@ -1,8 +1,8 @@
 body {
-    background-color: #c10fd1;
+    background: linear-gradient(to bottom,green,purple )
 }
 .speciaal {
-    border: dashed 3px rgb(114, 43, 238);
+    border: dashed 3px rgb(8, 143, 33);
     background-color: azure;
     margin-left: 10%;
 }
