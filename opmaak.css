@@ -47,3 +47,14 @@ li a {
   padding: 25px; /* ruimte rondom de inhoud van een element*/
   text-decoration: none; /* tekst decoratie*/
 }
+
+li a:hover:not(.active) {
+  background-color: #111;
+
+
+  .header {
+  background-color: greysmoke;
+  text-align: center;
+  padding: 25px;
+  color: blue;
+  }
