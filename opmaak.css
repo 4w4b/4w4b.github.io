@@ -1,9 +1,9 @@
 body {
-  position: relative;
-  height: 100vh;
-    background: linear-gradient(to bottom,green,purple )
-    
+    position: relative;
+    height: 100vh;
+    background: linear-gradient(to bottom, green, purple);
 }
+
 /* Stijl voor de paarse navigatiebalk */
 .purple-navbar {
     background-color: purple; /* Paarse achtergrondkleur */
@@ -20,11 +20,13 @@ body {
     font-family: 'Arial', sans-serif; /* Kies het lettertype */
     margin: 0; /* Verwijder standaard marges */
 }
+
 .speciaal {
     border: dashed 3px rgb(8, 143, 33);
     background-color: azure;
     margin-left: 10%;
 }
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -32,81 +34,54 @@ ul {
     overflow: hidden;
     background-color: #333;
     display: flex;
-  }
-  
-  li {
-    float: left;
-  }
-  
-  li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  /* Change the link color to #111 (black) on hover */
-  li a:hover {
-    background-color: purple;
-  }
-  .Buuloteli.png {
-    position: relative;
-    right: 5vw;
-    bottom:5vh ;
-  }
+}
+
+li {
+    float: left; /* positie van iets en in dit geval is het links */
+}
 
 li a {
-  display: block; /* display zorgt voor de weergave van een element*/
-  color: white; /* tekst kleur van menu*/
-  text-align: center; /* positie van tekst*/
-  padding: 25px; /* ruimte rondom de inhoud van een element*/
-  text-decoration: none; /* tekst decoratie*/
+    display: block; /* display zorgt voor de weergave van een element */
+    color: white; /* tekst kleur van menu */
+    text-align: center; /* positie van tekst */
+    padding: 25px; /* ruimte rondom de inhoud van een element */
+    text-decoration: none; /* tekst decoratie */
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: purple; /* Hover kleur voor menu-items */
 }
 
 li a:hover:not(.active) {
-  background-color: #111;
-
-
-  .header {
-  background-color: greysmoke;
-  text-align: center;
-  padding: 25px;
-  color: blue;
-  }
-
-li {
-  float: left; /* positie van iets en in dit geval is het links */
+    background-color: #111; /* Hover kleur voor andere menu-items */
 }
 
-  p {
-  font-family: "Lucida Console", "Courier New", monospace;
+.Buuloteli.png {
+    position: relative;
+    right: 5vw;
+    bottom: 5vh;
+}
 
+.header {
+    background-color: greysmoke;
+    text-align: center;
+    padding: 25px;
+    color: blue;
+}
+
+p {
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+/* Stijl voor de footer */
 .footer { 
-  background-color: whitesmoke; /* achtergrond kleur van footer*/
-  padding: 12px; /* ruimte rondom de inhoud van een element*/ 
-  text-align: center; /* positie van tekst*/
-  color: lightskyblue; /* tekst kleur van footer*/
-  position: relative; /* positie van footer*/ 
-  width: 100%; /* breedte van footer*/
-  left: 1; /* ruimte naar de linkerkant*/
+    background-color: green; /* Achtergrondkleur van de footer (groen) */
+    padding: 12px; /* Ruimte rondom de inhoud van de footer */ 
+    text-align: center; /* Centreer de tekst in de footer */
+    color: white; /* Tekstkleur van de footer (wit) */
+    position: relative; /* Positie van de footer */ 
+    width: 100%; /* Breedte van de footer */
+    left: 1; /* Ruimte naar de linkerkant */
 }
-
-    .paragraaf {
-  padding: 8px; /* ruimte rondom de inhoud van een element*/  
-  color: lightskyblue; /* tekst kleur van paragraaf*/
-  background-color: whitesmoke; /* achtergrondkleur van paragraaf*/
-  font-family: "Times New Roman", Times, serif; /* lettertype*/
-  font-size: large; /* lettergrootte*/
-}
-
-    #paragraaf2 {
-  padding: 8px; /* ruimte rondom de inhoud van een element*/
-  color: lightskyblue; /* tekst kleur van paragraaf*/
-  background-color: whitesmoke; /* achtergrondkleur van paragraaf*/
-  font-family: "Times New Roman", Times, serif; /* lettertype*/
-  font-size: large; /* lettergrootte*/
-  width: 60%; /* breedte van paragraaf*/
-}
-
     
