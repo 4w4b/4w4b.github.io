@@ -39,4 +39,11 @@ ul {
     right: 5vw;
     bottom:5vh ;
   }
-    
+
+li a {
+  display: block; /* display zorgt voor de weergave van een element*/
+  color: white; /* tekst kleur van menu*/
+  text-align: center; /* positie van tekst*/
+  padding: 25px; /* ruimte rondom de inhoud van een element*/
+  text-decoration: none; /* tekst decoratie*/
+}
