@@ -58,3 +58,39 @@ li a:hover:not(.active) {
   padding: 25px;
   color: blue;
   }
+
+li {
+  float: left; /* positie van iets en in dit geval is het links */
+}
+
+  p {
+  font-family: "Lucida Console", "Courier New", monospace;
+
+.footer { 
+  background-color: whitesmoke; /* achtergrond kleur van footer*/
+  padding: 12px; /* ruimte rondom de inhoud van een element*/ 
+  text-align: center; /* positie van tekst*/
+  color: lightskyblue; /* tekst kleur van footer*/
+  position: relative; /* positie van footer*/ 
+  width: 100%; /* breedte van footer*/
+  left: 1; /* ruimte naar de linkerkant*/
+}
+
+    .paragraaf {
+  padding: 8px; /* ruimte rondom de inhoud van een element*/  
+  color: lightskyblue; /* tekst kleur van paragraaf*/
+  background-color: whitesmoke; /* achtergrondkleur van paragraaf*/
+  font-family: "Times New Roman", Times, serif; /* lettertype*/
+  font-size: large; /* lettergrootte*/
+}
+
+    #paragraaf2 {
+  padding: 8px; /* ruimte rondom de inhoud van een element*/
+  color: lightskyblue; /* tekst kleur van paragraaf*/
+  background-color: whitesmoke; /* achtergrondkleur van paragraaf*/
+  font-family: "Times New Roman", Times, serif; /* lettertype*/
+  font-size: large; /* lettergrootte*/
+  width: 60%; /* breedte van paragraaf*/
+}
+
+    
