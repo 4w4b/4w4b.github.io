@@ -4,6 +4,22 @@ body {
     background: linear-gradient(to bottom,green,purple )
     
 }
+/* Stijl voor de paarse navigatiebalk */
+.purple-navbar {
+    background-color: purple; /* Paarse achtergrondkleur */
+    color: white; /* Witte tekstkleur */
+    text-align: center; /* Centreer de tekst */
+    padding: 10px; /* Ruimte rondom de tekst */
+    margin-bottom: 5px; /* Ruimte onder de balk */
+    border-radius: 5px; /* Hoekjes afronden */
+}
+
+/* Stijl voor de titel op de pagina */
+.page-title {
+    font-size: 36px; /* Pas de grootte van de tekst aan */
+    font-family: 'Arial', sans-serif; /* Kies het lettertype */
+    margin: 0; /* Verwijder standaard marges */
+}
 .speciaal {
     border: dashed 3px rgb(8, 143, 33);
     background-color: azure;
