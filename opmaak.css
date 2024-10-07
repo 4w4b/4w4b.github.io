@@ -1,7 +1,7 @@
 body {
     position: relative;
     height: 100vh;
-    background: linear-gradient(to bottom, green, purple);
+    background: linear-gradient(to bottom, rgb(14, 227, 239), rgb(237, 245, 245));
 }
 
 /* Stijl voor de paarse navigatiebalk */
