@@ -16,6 +16,22 @@
         .section {
             margin-bottom: 40px;
         }
+
+        /* Voor de YouTube video en tekst ernaast */
+        .video-container {
+            display: flex;
+            align-items: center;
+            margin-top: 20px;
+        }
+
+        .video-container iframe {
+            margin-right: 20px;
+        }
+
+        .video-text {
+            font-size: 16px;
+            color: #333;
+        }
     </style>
 </head>
 
@@ -56,6 +72,12 @@
         <p>Wordt op een andere manier opgeslagen. Geluid bestaat uit trillingen in de lucht. Met een microfoon worden deze trillingen omgezet in elektrische signalen, die de computer weer omzet naar digitale waarden. Dit proces heet 'samplen', zodat het geluid kan worden opgeslagen en later weer afgespeeld.</p>
     </div>
 
+    <!-- Ingesloten YouTube-video met begeleidende tekst -->
+    <div class="video-container">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/UaKho805vCE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <p class="video-text">Voor meer informatie klik op deze video ;)</p>
+    </div>
+
     <!-- Footer -->
     <footer class="footer">
         <p>
@@ -64,6 +86,9 @@
             Mail naar: <a href="mailto:awab.idriss@vlietlandcollege.nl">awab.idriss@vlietlandcollege.nl</a>
         </p>
     </footer>
+
+</body>
+</html>
 
 </body>
 </html>
