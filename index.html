@@ -22,14 +22,27 @@
             font-family: 'Arial', sans-serif; /* Kies het lettertype */
             margin: 0; /* Verwijder standaard marges */
         }
+        /* Stijl voor het midden van de pagina */
+        .center-text {
+            text-align: center;
+            font-family: 'Arial', sans-serif;
+        }
+        .intro-text {
+            margin: 20px auto;
+            width: 80%;
+            text-align: center;
+            font-family: 'Arial', sans-serif;
+            font-size: 18px;
+        }
     </style>
 </head>
 
 <body>
     <!-- Paarse navigatiebalk -->
-<div class="purple-navbar">
-    <h2 class="page-title">Homepagina</h2> <!-- Pas deze tekst aan afhankelijk van de pagina -->
-</div>
+    <div class="purple-navbar">
+        <h2 class="page-title">Homepagina</h2> <!-- Pas deze tekst aan afhankelijk van de pagina -->
+    </div>
+
     <!-- Navigation Menu -->
     <ul id="menu">
         <li><a href="/">Home</a></li>
@@ -41,53 +54,59 @@
     </ul>
 
     <!-- Welcome text at the top -->
-    <h2 style="text-align: center;">Welkom op de homepage van 4w4b!</h2>
+    <h2 class="center-text">Welkom op de homepage van 4w4b!</h2>
+
+    <!-- Introductory text -->
+    <div class="intro-text">
+        <p>Hallo, mijn naam is 4w4b en ik ben zoals je ziet een grote fan van de voetballer Mario Balotelli. Naast het fan zijn van Balotelli ben ik ook een grote fan van informatica, daarom heb ik mijn best gedaan om mijn website zo goed en duidelijk mogelijk te maken voor jou. Veel succes met lezen en als je feedback hebt stuur mij gerust een e-mail. Ik sta altijd open voor verbetering!</p>
+    </div>
 
     <!-- First Image -->
-    <p style="text-align: center;">
+    <p class="center-text">
         <img src="Buuloteli.png" alt="Pin page" height="200" width="200" />
     </p>
 
-<footer class="footer">
-    <p>
-        Gemaakt door Awab Idriss
-        <br>
-        Mail naar: 
-        <a href="mailto:awab.idriss@vlietlandcollege.nl">awab.idriss@vlietlandcollege.nl</a>
-    </p>
-</footer>
-
-    <style>
-    /* Style for the footer and purple beam */
-    .footer {
-        position: fixed;
-        bottom: 0;
-        left: 0;
-        width: 100%;
-        background-color: green;
-        text-align: center;
-        padding: 20px 0;
-        color: white;
-        font-family: Arial, sans-serif;
-        font-size: 16px;
-    }
-
-    .footer a {
-        color: white;
-        text-decoration: underline;
-    }
-
-    .footer a:hover {
-        color: #ddd;
-    }
-</style>
-
-    <div style="text-align: center;">
+    <!-- Video in the center -->
+    <div class="center-text">
         <video width="300" controls>
             <source src="Download.mp4" type="video/mp4">
         </video>
     </div>
 
+    <!-- Footer Section -->
+    <footer class="footer">
+        <p>
+            Gemaakt door Awab Idriss
+            <br>
+            Mail naar: 
+            <a href="mailto:awab.idriss@vlietlandcollege.nl">awab.idriss@vlietlandcollege.nl</a>
+        </p>
+    </footer>
+
+    <style>
+        /* Style for the footer */
+        .footer {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background-color: green;
+            text-align: center;
+            padding: 20px 0;
+            color: white;
+            font-family: Arial, sans-serif;
+            font-size: 16px;
+        }
+
+        .footer a {
+            color: white;
+            text-decoration: underline;
+        }
+
+        .footer a:hover {
+            color: #ddd;
+        }
+    </style>
 </body>
 
 </html>
