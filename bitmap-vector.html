@@ -2,8 +2,12 @@
 <html>
 
 <head>
+    <!-- Titel van de pagina in de browser-tab -->
     <title>Bitmap en Vectorafbeeldingen</title>
+
+    <!-- Externe CSS-stylesheet voor de opmaak van de pagina -->
     <link rel="stylesheet" href="https://4w4b.github.io/opmaak.css">
+
     <style>
         /* Voeg een dunne lijn onder de titels toe */
         h2, h3 {
@@ -11,13 +15,13 @@
             padding-bottom: 5px;
             margin-bottom: 20px;
         }
-        
+
         /* Zorg voor ruimte tussen de secties */
         .section {
             margin-bottom: 40px;
         }
 
-        /* Voor de YouTube video en tekst ernaast */
+        /* Voor de YouTube-video en tekst ernaast */
         .video-container {
             display: flex;
             align-items: center;
@@ -35,13 +39,14 @@
     </style>
 </head>
 
-<!-- Paarse navigatiebalk -->
-<div class="purple-navbar">
-    <h2 class="page-title">Bitmap en vectorafbeeldingen</h2> <!-- Pas deze tekst aan afhankelijk van de pagina -->
-</div>
-
 <body>
-    <!-- Menu -->
+
+    <!-- Paarse navigatiebalk -->
+    <div class="purple-navbar">
+        <h2 class="page-title">Bitmap en vectorafbeeldingen</h2> <!-- Titel van de pagina -->
+    </div>
+
+    <!-- Navigatiemenu -->
     <ul id="menu">
         <li><a href="/">Home</a></li>
         <li><a href="/compressie">Compressie</a></li>
@@ -51,34 +56,54 @@
         <li><a href="/algemeen.html">Algemene informatie</a></li>
     </ul>
 
-    <!-- Content met titels en beschrijvingen -->
+    <!-- Uitlegsecties -->
     <div class="section">
         <h3>Wat zijn Bitmapafbeeldingen en Vectorafbeeldingen?</h3>
-        <p>Op deze pagina leg ik uit hoe afbeeldingen en geluid digitaal worden opgeslagen. Bij het opslaan van afbeeldingen is het belangrijk om rekening te houden met de grootte van het bestand en de kwaliteit van het beeld, afhankelijk van het type afbeelding.</p>
+        <p>
+            Op deze pagina leg ik uit hoe afbeeldingen en geluid digitaal worden opgeslagen. 
+            Bij het opslaan van afbeeldingen is het belangrijk om rekening te houden met de grootte van het bestand en de kwaliteit van het beeld, 
+            afhankelijk van het type afbeelding.
+        </p>
     </div>
 
     <div class="section">
         <h3>Bitmapafbeeldingen</h3>
-        <p>Bestaan uit pixels, kleine gekleurde puntjes. Hoe meer pixels een afbeelding heeft, hoe scherper het eruitziet. Maar meer pixels betekent ook dat het bestand groter wordt en meer opslagruimte inneemt. Een nadeel van bitmapafbeeldingen is dat als je inzoomt, de pixels zichtbaar worden en de afbeelding wazig kan worden. Voor grote afbeeldingen, zoals posters of reclameborden, zijn veel pixels nodig, wat zorgt voor grote bestanden.</p>
+        <p>
+            Bitmapafbeeldingen bestaan uit pixels, kleine gekleurde puntjes. Hoe meer pixels een afbeelding heeft, hoe scherper het eruitziet. 
+            Maar meer pixels betekent ook dat het bestand groter wordt en meer opslagruimte inneemt. 
+            Een nadeel van bitmapafbeeldingen is dat als je inzoomt, de pixels zichtbaar worden en de afbeelding wazig kan worden. 
+            Voor grote afbeeldingen, zoals posters of reclameborden, zijn veel pixels nodig, wat zorgt voor grote bestanden.
+        </p>
     </div>
 
     <div class="section">
         <h3>Vectorafbeeldingen</h3>
-        <p>Werken anders. In plaats van pixels slaan ze vormen op, samen met hun locatie, grootte en kleur. Hierdoor kunnen ze vergroot of verkleind worden zonder dat de kwaliteit achteruitgaat. Dit is handig voor bijvoorbeeld logo's. Een nadeel van vectorafbeeldingen is dat ze alleen eenvoudige vormen kunnen opslaan, waardoor ze niet geschikt zijn voor foto’s met veel verschillende kleuren en details.</p>
+        <p>
+            Vectorafbeeldingen werken anders. In plaats van pixels slaan ze vormen op, samen met hun locatie, grootte en kleur. 
+            Hierdoor kunnen ze vergroot of verkleind worden zonder dat de kwaliteit achteruitgaat. 
+            Dit is handig voor bijvoorbeeld logo's. 
+            Een nadeel van vectorafbeeldingen is dat ze alleen eenvoudige vormen kunnen opslaan, waardoor ze niet geschikt zijn voor foto’s met veel verschillende kleuren en details.
+        </p>
     </div>
 
     <div class="section">
         <h3>Geluid</h3>
-        <p>Wordt op een andere manier opgeslagen. Geluid bestaat uit trillingen in de lucht. Met een microfoon worden deze trillingen omgezet in elektrische signalen, die de computer weer omzet naar digitale waarden. Dit proces heet 'samplen', zodat het geluid kan worden opgeslagen en later weer afgespeeld.</p>
+        <p>
+            Geluid wordt op een andere manier opgeslagen. Geluid bestaat uit trillingen in de lucht. 
+            Met een microfoon worden deze trillingen omgezet in elektrische signalen, die de computer weer omzet naar digitale waarden. 
+            Dit proces heet 'samplen', zodat het geluid kan worden opgeslagen en later weer afgespeeld.
+        </p>
     </div>
 
-    <!-- Ingesloten YouTube-video met begeleidende tekst -->
+    <!-- YouTube-video met begeleidende tekst -->
     <div class="video-container">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/UaKho805vCE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <p class="video-text">Voor meer informatie klik op deze video ;)</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/UaKho805vCE" 
+            title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
+            encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <p class="video-text">Voor meer informatie, bekijk deze video ;)</p>
     </div>
 
-    <!-- Footer -->
+    <!-- Footer met contactinformatie -->
     <footer class="footer">
         <p>
             Gemaakt door Awab Idriss
@@ -88,7 +113,6 @@
     </footer>
 
 </body>
+
 </html>
 
-</body>
-</html>
