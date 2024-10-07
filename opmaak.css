@@ -21,12 +21,14 @@ body {
     margin: 0; /* Verwijder standaard marges */
 }
 
+/* Stijl voor speciale secties */
 .speciaal {
     border: dashed 3px rgb(8, 143, 33);
     background-color: azure;
     margin-left: 10%;
 }
 
+/* Navigatiemenu stijl */
 ul {
     list-style-type: none;
     margin: 0;
@@ -37,31 +39,34 @@ ul {
 }
 
 li {
-    float: left; /* positie van iets en in dit geval is het links */
+    float: left; /* Positie van items in het menu */
 }
 
 li a {
-    display: block; /* display zorgt voor de weergave van een element */
-    color: white; /* tekst kleur van menu */
-    text-align: center; /* positie van tekst */
-    padding: 25px; /* ruimte rondom de inhoud van een element */
-    text-decoration: none; /* tekst decoratie */
+    display: block; /* Zorgt voor de weergave van een element */
+    color: white; /* Tekstkleur van het menu */
+    text-align: center; /* Positie van tekst */
+    padding: 25px; /* Ruimte rondom de inhoud van een element */
+    text-decoration: none; /* Geen onderstreping van de tekst */
 }
 
-/* Change the link color to #111 (black) on hover */
+/* Hover-effecten voor menu-items */
 li a:hover {
-    background-color: purple; /* Hover kleur voor menu-items */
+    background-color: purple; /* Hover kleur voor actieve menu-items */
 }
 
 li a:hover:not(.active) {
     background-color: #111; /* Hover kleur voor andere menu-items */
 }
 
+/* Stijl voor de afbeelding */
 .Buuloteli.png {
     position: relative;
     right: 5vw;
     bottom: 5vh;
 }
+
+/* Stijl voor de titelbalk */
 .title-bar {
     border-bottom: 2px solid #ccc; /* Dunne grijze balk onder de titel */
     padding-bottom: 10px; /* Ruimte onder de titel */
@@ -70,18 +75,19 @@ li a:hover:not(.active) {
     font-family: Arial, sans-serif;
 }
 
+/* Stijl voor paragraaftekst */
 p {
     font-family: "Lucida Console", "Courier New", monospace;
 }
 
-.footer { 
-    background-color: green; /* Achtergrondkleur van de footer (groen) */
-    padding: 12px; /* Ruimte rondom de inhoud van de footer */ 
+/* Stijl voor de footer */
+.footer {
+    background-color: green; /* Achtergrondkleur van de footer */
+    padding: 12px; /* Ruimte rondom de inhoud van de footer */
     text-align: center; /* Centreer de tekst in de footer */
-    color: white; /* Tekstkleur van de footer (wit) */
-    position: relative; /* Positie van de footer */ 
+    color: white; /* Tekstkleur van de footer */
+    position: relative; /* Positie van de footer */
     width: 100%; /* Breedte van de footer */
     left: 1; /* Ruimte naar de linkerkant */
 }
-
 
